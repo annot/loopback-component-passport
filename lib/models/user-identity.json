@@ -16,7 +16,10 @@
       "comments": "The provider specific id"
     },
     "profile": {
-      "type": "Object"
+      "type": "Object",
+      "postgresql": {
+        "dataType": "text"
+      }
     },
     "credentials": {
       "type": "Object"
